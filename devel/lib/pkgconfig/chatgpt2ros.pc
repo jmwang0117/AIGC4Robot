@@ -1,0 +1,8 @@
+prefix=/home/catkin_ws/devel
+
+Name: chatgpt2ros
+Description: Description of chatgpt2ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
