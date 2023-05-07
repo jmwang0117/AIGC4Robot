@@ -1,0 +1,5 @@
+<launch>
+  <node name="chatgpt_connector_node" pkg="chatgpt2ros" type="chatgpt_connector_node.py" />
+  <node name="audio_chatgpt_node" pkg="chatgpt2ros" type="audio_chatgpt.py" />
+  <node name="voice_chatgpt_dialogue_node" pkg="chatgpt2ros" type="voice_chatgpt_dialogue.py" />
+</launch>

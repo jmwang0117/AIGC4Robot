@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9c74a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9c74a.dir/build.make CMakeFiles/cmTC_9c74a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fc1b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc1b3.dir/build.make CMakeFiles/cmTC_fc1b3.dir/build
 make[1]: 进入目录“/home/catkin_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_9c74a.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9c74a.dir/CheckSymbolExists.c.o   -c /home/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_9c74a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c74a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9c74a.dir/CheckSymbolExists.c.o  -o cmTC_9c74a 
-CMakeFiles/cmTC_9c74a.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Building C object CMakeFiles/cmTC_fc1b3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fc1b3.dir/CheckSymbolExists.c.o   -c /home/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fc1b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc1b3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fc1b3.dir/CheckSymbolExists.c.o  -o cmTC_fc1b3 
+CMakeFiles/cmTC_fc1b3.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x14)：对‘pthread_create’未定义的引用
 CheckSymbolExists.c:(.text+0x18)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9c74a.dir/build.make:97: recipe for target 'cmTC_9c74a' failed
-make[1]: *** [cmTC_9c74a] Error 1
+CMakeFiles/cmTC_fc1b3.dir/build.make:97: recipe for target 'cmTC_fc1b3' failed
+make[1]: *** [cmTC_fc1b3] Error 1
 make[1]: 离开目录“/home/catkin_ws/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_9c74a/fast' failed
-make: *** [cmTC_9c74a/fast] Error 2
+Makefile:126: recipe for target 'cmTC_fc1b3/fast' failed
+make: *** [cmTC_fc1b3/fast] Error 2
 
 File /home/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -37,20 +37,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea542/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea542.dir/build.make CMakeFiles/cmTC_ea542.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7c720/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c720.dir/build.make CMakeFiles/cmTC_7c720.dir/build
 make[1]: 进入目录“/home/catkin_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_ea542.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ea542.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ea542
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea542.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ea542.dir/CheckFunctionExists.c.o  -o cmTC_ea542 -lpthreads 
+Building C object CMakeFiles/cmTC_7c720.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7c720.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c720
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c720.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7c720.dir/CheckFunctionExists.c.o  -o cmTC_7c720 -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ea542.dir/build.make:97: recipe for target 'cmTC_ea542' failed
-make[1]: *** [cmTC_ea542] Error 1
+CMakeFiles/cmTC_7c720.dir/build.make:97: recipe for target 'cmTC_7c720' failed
+make[1]: *** [cmTC_7c720] Error 1
 make[1]: 离开目录“/home/catkin_ws/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_ea542/fast' failed
-make: *** [cmTC_ea542/fast] Error 2
+Makefile:126: recipe for target 'cmTC_7c720/fast' failed
+make: *** [cmTC_7c720/fast] Error 2
 
 

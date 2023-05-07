@@ -8,7 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu:/usr/local/cuda-10.2/targets/aarch64-linux/lib'
 export PWD='/home/catkin_ws/build'
 export ROSLISP_PACKAGE_DIRECTORIES='/home/catkin_ws/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/catkin_ws/src:$ROS_PACKAGE_PATH"

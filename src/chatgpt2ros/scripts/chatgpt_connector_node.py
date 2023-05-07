@@ -41,7 +41,7 @@ def chatgpt_reply_thread():
                 temperature=0.5,
             )
             reply = response.choices[0].text.strip()
-            rospy.loginfo("GPT replied: %s", reply)
+            #rospy.loginfo("GPT replied: %s", reply)
             chat_pub.publish(reply)
             conversation_history.append(reply)
 
