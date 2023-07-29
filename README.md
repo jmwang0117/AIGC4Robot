@@ -24,9 +24,9 @@ The goal of this repository is to merge the powerful capabilities of Generative 
 ## Structure
 
 - [x] Papers
-- [ ] Application Examples
+- [x] Application Examples
 - [ ] Algorithms and Systems
-- [ ] Dockerfile
+- [x] Dockerfile
 
 
 
